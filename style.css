@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	background-color: #f1f1f1;
+}	
+.Content-Card {
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 25px;
+}
+
+.card {
+    position: relative;
+    box-sizing: border-box;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 273px;
+}
+
+.card:hover {
+    height: 400px;
+}
+
+.card__top1 {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background: #333;
+    transition: 0.8s;
+    padding-right: 45px;
+}
+
+.card__top {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background: #7579e7;
+    transition: 0.8s;
+    padding-right: 45px;
+}
+
+.card__top > h1 {
+    position: relative;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.fab{
+    font-size: 100px;
+}
+
+.fas {
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+}
+
+.card__bottom {
+    box-sizing: border-box;
+    height: 200px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 16px;
+    background: white;
+}
+
+.card__bottom > p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.3em;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    line-height: 1.3em;
+}
